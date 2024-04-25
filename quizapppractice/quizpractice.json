@@ -1,0 +1,55 @@
+ [
+     {
+            "id":1,
+            "question":"Inside which HTML element do we put the JavaScript? ",
+             "answers":[
+              
+                  {"text":"script","correct":"true"},
+                  {"text":"scripting","correct":"false"},
+                  {"text":"javascript","correct":"false"},
+                  {"text":"js","correct":"false"}
+               ]   
+          },
+          {
+              "id":2,
+            "question":"What does the `typeof` operator return for `null` in JavaScript?",
+             "answers":[
+              
+                  {"text":"null","correct":"false"},
+                  {"text":"object","correct":"true"},
+                  {"text":"undefined","correct":"false"},
+                  {"text":"number","correct":"false"}
+               ]   
+      
+          },
+          {
+              "question":"How do you check the length of an array in JavaScript?",
+              "answers":[
+               
+                   {"text":"array.length()","correct":"false"},
+                   {"text":"array.size()","correct":"false"},
+                   {"text":"length(array)","correct":"false"},
+                   {"text":"array.length","correct":"true"}
+                ]     
+          },
+          {
+              "question":"What is the difference between let and var in JavaScript for variable declaration?",
+              "answers":[
+               
+                   {"text":"They are interchangeable and can be used in the same way","correct":"false"},
+                   {"text":"let is block-scoped, and var is global-scoped","correct":"true"},
+                   {"text":"var is block-scoped, and let is function-scoped","correct":"false"},
+                   {"text":"There is no difference; they serve the same purpose","correct":"false"}
+                ]      
+          },
+          {
+              "question":"Which function is used to convert a string to an integer in JavaScript?",
+              "answers":[
+               
+                   {"text":"convertToInt()","correct":"false"},
+                   {"text":"parseFloat()","correct":"false"},
+                   {"text":"parseInt()","correct":"true"},
+                   {"text":"toInteger()","correct":"false"}
+                ]      
+          }
+]
